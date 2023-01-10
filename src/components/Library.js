@@ -11,7 +11,6 @@ const Library = () => {
             .then((res) => {
                 if (res) {
                     setContents(res.data);
-                    console.log(res.data)
                 }
             })  
     }, [])
